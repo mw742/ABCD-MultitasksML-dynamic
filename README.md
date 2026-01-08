@@ -17,6 +17,10 @@ Main scripts:
 - `02_train_mtl_dynamic.py`  
   Train and evaluate the dynamic multi-task model (shared MLP + joint output).
 
+- Dependencies
+
+R/4.3.0 python/3.11.4 pytorch/2.5.0py311-cuda
+
 ---
 
 ## 2) Data access and notes
