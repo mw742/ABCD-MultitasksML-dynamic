@@ -2,7 +2,7 @@
 
 
 **Multi-task discrete-time prediction of substance use initiation using longitudinal risk windows in the ABCD Study**  
-Mengman Wei\* and Qian Peng\*
+Mengman Wei*, Hanwen Zhang, and Qian Peng*
 
 
 ---
@@ -35,6 +35,6 @@ This project uses **ABCD Release 5.1**.
 If you use or adapt this project’s ideas and scripts, please cite the associated manuscript:
 
 **Multi-task discrete-time prediction of substance use initiation using longitudinal risk windows in the ABCD Study**  
-Mengman Wei\* and Qian Peng\*
+Mengman Wei\*, Hanwen Zhang, and Qian Peng\*
 
 
