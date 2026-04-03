@@ -8,7 +8,7 @@ get_arg <- function(k, d=NULL) {
   sub(paste0("^--", k, "="), "", hit[1])
 }
 
-SURV_DIR <- get_arg("surv_dir", "/gpfs/group/ehlers/mwei/ABCD_2/ABCD/work_provided_assets/Env_surv")
+SURV_DIR <- get_arg("surv_dir", "/path/")
 OUT_DIR  <- get_arg("out_dir",  getwd())
 SEED     <- as.integer(get_arg("seed", "42"))
 FRAC_TRAIN <- as.numeric(get_arg("frac_train", "0.70"))
