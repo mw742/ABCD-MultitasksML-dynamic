@@ -17,7 +17,7 @@ get_arg <- function(key, default=NULL) {
 
 WORKDIR <- get_arg("workdir", getwd())
 ENV_SURV_DIR <- get_arg("env_surv_dir",
-  "/gpfs/group/ehlers/mwei/ABCD_2/ABCD/work_provided_assets/Env_surv"
+  "/path/"
 )
 
 COV_FILE <- get_arg("cov_file", file.path(ENV_SURV_DIR, "cov_timevarying_filtered.tsv"))
@@ -33,10 +33,10 @@ INTERVAL_FILES <- setNames(file.path(ENV_SURV_DIR, paste0("env_surv_intervals_",
 CORE_COVARS <- c("sex","baseline_age","age","site", paste0("PC",1:20))
 
 PRS_PATHS <- list(
-  PRS_PAU      = "/gpfs/group/ehlers/mwei/ABCD_2/ABCD/work_provided_assets/GWAS_sud/PRS_scores_PRScsx/PAU_multi_PRS_two_col.tsv",
-  PRS_CanUD    = "/gpfs/group/ehlers/mwei/ABCD_2/ABCD/work_provided_assets/GWAS_sud/Levey2023_CanUD/prs_scores_prscsx/CanUD_EURAFR_META_PRS_two_col.tsv",
-  PRS_nicotine = "/gpfs/group/ehlers/mwei/ABCD_2/ABCD/work_provided_assets/GWAS_sud1/prs_scores/nicotine_PRS_two_col.tsv",
-  PRS_anySUD   = "/gpfs/group/ehlers/mwei/ABCD_2/ABCD/work_provided_assets/GWAS_sud1/prs_scores/anySUD_PRS_two_col.tsv"
+  PRS_PAU      = "PRS_two_col.tsv",
+  PRS_CanUD    = "PRS_two_col.tsv",
+  PRS_nicotine = "PRS_two_col.tsv",
+  PRS_anySUD   = "PRS_two_col.tsv"
 )
 
 dir.create(OUT_DIR, showWarnings=FALSE, recursive=TRUE)
