@@ -2,7 +2,7 @@
 
 
 **Multi-task discrete-time prediction of substance use initiation using longitudinal risk windows in the ABCD Study**  
-Mengman Wei*, Hanwen Zhang, and Qian Peng*
+Mengman Wei, Hanwen Zhang, and Qian Peng
 
 
 ---
@@ -34,5 +34,5 @@ This project uses **ABCD Release 5.1**.
 
 If you use this work, please cite:
 
-Wei, M., Zhang, H., & Peng, Q. (2026). *Dynamic and Baseline Multi-Task Learning for Predicting Substance Use Initiation in the ABCD Study*. medRxiv. https://doi.org/10.64898/2026.04.10
+Wei, M., Zhang, H., & Peng, Q. (2026). *Dynamic and Baseline Multi-Task Learning for Predicting Substance Use Initiation in the ABCD Study*. medRxiv. doi: 10.64898/2026.04.10.26350655.
 
